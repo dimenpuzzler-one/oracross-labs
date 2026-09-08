@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: If you use this dataset, please cite it as below.
+title: "Birth-Time Uncertainty and Chart Stability Across Bazi, Zi Wei Dou Shu, and Western Astrology"
+abstract: >-
+  Computational sensitivity study measuring how often Bazi, Zi Wei Dou Shu and
+  Western astrology chart values change when the birth time is shifted by
+  5 to 120 minutes. All three systems computed by the same engines.
+authors:
+  - family-names: Kim
+    given-names: Geonyeob
+    website: "https://oracross.com/about#author"
+type: dataset
+license: CC-BY-4.0
+version: 1.0.0
+date-released: "2026-09-06"
+url: "https://oracross.com/en/labs/birth-time-sensitivity"
+identifiers:
+  - type: other
+    value: "ORX-LAB-001"
+    description: Internal study identifier
+keywords:
+  - astrology
+  - bazi
+  - four pillars
+  - zi wei dou shu
+  - birth time
+  - sensitivity analysis
