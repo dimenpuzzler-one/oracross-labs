@@ -11,13 +11,18 @@ in one place, which is rarely done.
 | ID | Study | Published | Write-up |
 |---|---|---|---|
 | `ORX-LAB-001` | Birth-Time Uncertainty and Chart Stability Across Bazi, Zi Wei Dou Shu, and Western Astrology | 2026-09-06 | [read](https://oracross.com/en/labs/birth-time-sensitivity) |
+| `ORX-LAB-002` | Calendar, Time-Zone, and Solar-Time Boundary Effects in Three Birth-Chart Systems | 2026-09-10 | [read](https://oracross.com/en/labs/time-conventions) |
 
 ## Files
 
 ```
 datasets/orx-lab-001/observations.csv   one row per (birth time × offset)
-datasets/orx-lab-001/summary.json       aggregated rates per offset
+datasets/orx-lab-001/summary.json       aggregated result the website reads
 datasets/orx-lab-001/README.md          method, results, limits
+
+datasets/orx-lab-002/observations.csv   one row per (birth time × convention)
+datasets/orx-lab-002/summary.json       aggregated result the website reads
+datasets/orx-lab-002/README.md          method, results, limits
 ```
 
 ## Reproducing

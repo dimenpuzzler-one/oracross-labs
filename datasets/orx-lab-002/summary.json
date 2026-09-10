@@ -1,0 +1,181 @@
+{
+  "studyId": "ORX-LAB-002",
+  "generatedFrom": {
+    "cities": [
+      "서울",
+      "부산",
+      "제주"
+    ],
+    "eras": [
+      {
+        "era": "구표준시",
+        "years": [
+          1956,
+          1959
+        ],
+        "note": "UTC+08:30 (1954-03-21 ~ 1961-08-09)"
+      },
+      {
+        "era": "서머타임",
+        "years": [
+          1987,
+          1988
+        ],
+        "note": "UTC+10:00 (여름)"
+      },
+      {
+        "era": "현행",
+        "years": [
+          1980,
+          2000
+        ],
+        "note": "UTC+09:00"
+      }
+    ],
+    "datesPerYear": 12,
+    "timesPerDay": 12,
+    "births": 2592,
+    "variants": [
+      "noHistoricalTz",
+      "noSolarTime"
+    ],
+    "totalChartComputations": 7776
+  },
+  "cells": [
+    {
+      "era": "구표준시",
+      "eraNote": "UTC+08:30 (1954-03-21 ~ 1961-08-09)",
+      "variant": "noHistoricalTz",
+      "variantLabel": "표준시 이력 무시",
+      "scope": "all",
+      "samples": 864,
+      "anyChanged": 0.9769,
+      "apparentShiftMinutesMedian": 30,
+      "apparentShiftMinutesMax": 30,
+      "changedBy": {
+        "yearPillar": 0,
+        "monthPillar": 0,
+        "dayPillar": 0.0521,
+        "hourPillar": 0.2361,
+        "minggongBranch": 0.2361,
+        "bodyPalaceBranch": 0.2361,
+        "soulStar": 0.2361,
+        "sihua": 0,
+        "ascSign": 0.228,
+        "mcSign": 0.2685,
+        "planetHouses": 0.9549
+      }
+    },
+    {
+      "era": "구표준시",
+      "eraNote": "UTC+08:30 (1954-03-21 ~ 1961-08-09)",
+      "variant": "noSolarTime",
+      "variantLabel": "진태양시 무시",
+      "scope": "baziZiwei",
+      "samples": 864,
+      "anyChanged": 0.2396,
+      "apparentShiftMinutesMedian": 6,
+      "apparentShiftMinutesMax": 64,
+      "changedBy": {
+        "yearPillar": 0,
+        "monthPillar": 0,
+        "dayPillar": 0.0313,
+        "hourPillar": 0.2083,
+        "minggongBranch": 0.2083,
+        "bodyPalaceBranch": 0.2083,
+        "soulStar": 0.2083,
+        "sihua": 0
+      }
+    },
+    {
+      "era": "서머타임",
+      "eraNote": "UTC+10:00 (여름)",
+      "variant": "noHistoricalTz",
+      "variantLabel": "표준시 이력 무시",
+      "scope": "all",
+      "samples": 864,
+      "anyChanged": 0.375,
+      "apparentShiftMinutesMedian": 0,
+      "apparentShiftMinutesMax": 60,
+      "changedBy": {
+        "yearPillar": 0,
+        "monthPillar": 0,
+        "dayPillar": 0,
+        "hourPillar": 0.0938,
+        "minggongBranch": 0.0938,
+        "bodyPalaceBranch": 0.0938,
+        "soulStar": 0.0938,
+        "sihua": 0,
+        "ascSign": 0.1863,
+        "mcSign": 0.162,
+        "planetHouses": 0.375
+      }
+    },
+    {
+      "era": "서머타임",
+      "eraNote": "UTC+10:00 (여름)",
+      "variant": "noSolarTime",
+      "variantLabel": "진태양시 무시",
+      "scope": "baziZiwei",
+      "samples": 864,
+      "anyChanged": 0.5347,
+      "apparentShiftMinutesMedian": 34,
+      "apparentShiftMinutesMax": 94,
+      "changedBy": {
+        "yearPillar": 0,
+        "monthPillar": 0,
+        "dayPillar": 0.0833,
+        "hourPillar": 0.4826,
+        "minggongBranch": 0.4826,
+        "bodyPalaceBranch": 0.4826,
+        "soulStar": 0.4826,
+        "sihua": 0
+      }
+    },
+    {
+      "era": "현행",
+      "eraNote": "UTC+09:00",
+      "variant": "noHistoricalTz",
+      "variantLabel": "표준시 이력 무시",
+      "scope": "all",
+      "samples": 864,
+      "anyChanged": 0,
+      "apparentShiftMinutesMedian": 0,
+      "apparentShiftMinutesMax": 0,
+      "changedBy": {
+        "yearPillar": 0,
+        "monthPillar": 0,
+        "dayPillar": 0,
+        "hourPillar": 0,
+        "minggongBranch": 0,
+        "bodyPalaceBranch": 0,
+        "soulStar": 0,
+        "sihua": 0,
+        "ascSign": 0,
+        "mcSign": 0,
+        "planetHouses": 0
+      }
+    },
+    {
+      "era": "현행",
+      "eraNote": "UTC+09:00",
+      "variant": "noSolarTime",
+      "variantLabel": "진태양시 무시",
+      "scope": "baziZiwei",
+      "samples": 864,
+      "anyChanged": 0.4722,
+      "apparentShiftMinutesMedian": 32,
+      "apparentShiftMinutesMax": 34,
+      "changedBy": {
+        "yearPillar": 0,
+        "monthPillar": 0,
+        "dayPillar": 0.0833,
+        "hourPillar": 0.3889,
+        "minggongBranch": 0.3889,
+        "bodyPalaceBranch": 0.3889,
+        "soulStar": 0.3889,
+        "sihua": 0
+      }
+    }
+  ]
+}

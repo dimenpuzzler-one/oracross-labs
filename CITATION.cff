@@ -1,23 +1,17 @@
 cff-version: 1.2.0
-message: If you use this dataset, please cite it as below.
-title: "Birth-Time Uncertainty and Chart Stability Across Bazi, Zi Wei Dou Shu, and Western Astrology"
+message: If you use these datasets, please cite the study you used.
+title: "ORACROSS Labs — open datasets"
 abstract: >-
-  Computational sensitivity study measuring how often Bazi, Zi Wei Dou Shu and
-  Western astrology chart values change when the birth time is shifted by
-  5 to 120 minutes. All three systems computed by the same engines.
+  Raw observations behind the open computational studies published by ORACROSS
+  Labs. Every study computes Bazi, Zi Wei Dou Shu and Western astrology with the
+  same engines under identical conditions.
 authors:
   - family-names: Kim
     given-names: Geonyeob
     website: "https://oracross.com/about#author"
 type: dataset
 license: CC-BY-4.0
-version: 1.0.0
-date-released: "2026-09-06"
-url: "https://oracross.com/en/labs/birth-time-sensitivity"
-identifiers:
-  - type: other
-    value: "ORX-LAB-001"
-    description: Internal study identifier
+url: "https://oracross.com/en/labs"
 keywords:
   - astrology
   - bazi
@@ -25,3 +19,35 @@ keywords:
   - zi wei dou shu
   - birth time
   - sensitivity analysis
+  - time zone history
+  - apparent solar time
+  - korea standard time
+references:
+  - type: dataset
+    title: "Birth-Time Uncertainty and Chart Stability Across Bazi, Zi Wei Dou Shu, and Western Astrology"
+    abstract: "Computational sensitivity study measuring how often Bazi, Zi Wei Dou Shu and Western astrology chart values change when the birth time is shifted by 5 to 120 minutes. All three systems computed by the same engines."
+    authors:
+      - family-names: Kim
+        given-names: Geonyeob
+    version: 1.0.0
+    date-released: "2026-09-06"
+    license: CC-BY-4.0
+    url: "https://oracross.com/en/labs/birth-time-sensitivity"
+    identifiers:
+      - type: other
+        value: "ORX-LAB-001"
+        description: Internal study identifier
+  - type: dataset
+    title: "Calendar, Time-Zone, and Solar-Time Boundary Effects in Three Birth-Chart Systems"
+    abstract: "Computational divergence study measuring how often chart values differ between calculators that apply different conventions to the same birth time: Korea’s historical standard time (UTC+08:30 in 1954–61, summer time in 1987–88) and the apparent-solar-time correction. Same engine on both sides of every comparison."
+    authors:
+      - family-names: Kim
+        given-names: Geonyeob
+    version: 1.0.0
+    date-released: "2026-09-10"
+    license: CC-BY-4.0
+    url: "https://oracross.com/en/labs/time-conventions"
+    identifiers:
+      - type: other
+        value: "ORX-LAB-002"
+        description: Internal study identifier
